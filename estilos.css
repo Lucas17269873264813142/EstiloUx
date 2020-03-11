@@ -1,0 +1,145 @@
+/* @import  */
+@font-face{
+    font-family: 'Leonardo';
+    src: url('../Fontes/ShadowsIntoLight-Regular.ttf');
+}
+
+body{
+    background-color: #efefef;
+    font-family: 'Leonardo', cursive;
+    font-weight: 180;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#cabecalho {            
+    padding-right: 10%;
+    padding-left: 10%;
+    background-color: gray;
+    color: white
+}
+
+#menu{
+    display: inline-block;
+    width: 80%;
+    text-align: right; 
+}
+
+h1 {
+    width: 15%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+a {
+    display: inline-block;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+#corpo-documento{
+    margin-top: 20px;
+    margin-right: 10%;
+    margin-left: 10%;
+    width: 80%; 
+}
+
+#conteudo{
+    Background-color:white;
+    display: inline-block;
+    width: 70%;
+    margin-right: -4px;
+    vertical-align: top;
+    color: #838383;
+}
+#barra-lateral{
+    display: inline-block;
+    width: 28%;
+    margin-right: -4px;
+    margin-left: 2%;
+    height: 100%;   
+    vertical-align: top;
+    
+}
+#imagem100{
+    width: 100%;
+}
+
+#conteudo p{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px
+}
+
+#conteudo h2{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px
+}
+
+#busca{
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.box-side{
+    margin-bottom: 20px;
+    background-color: white;
+    padding-bottom: 10px;
+}
+.box-side h3{
+    text-align: center;
+    border-bottom: 2px solid #efefef;
+    margin-bottom: 20px;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #858585
+}
+
+.box-side input{
+    height: 30px;
+    margin-left: 100px;
+    width: 150px;
+    border-bottom: 2px solid #efefef;
+    vertical-align: center;
+}
+.box-side button{
+    border-bottom: 2px solid #efefef;
+    width: 70px;
+    height: 30px;
+    margin-left: 10px;
+    color: white;
+    background-color: #727272;
+    vertical-align: center;
+}
+
+.box-side ul li{
+    margin-left: 30px;
+    margin-bottom: 4px;
+    margin-right: 10px;
+}
+
+.inscreva-se{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+#email{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%
+}
+
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap')
